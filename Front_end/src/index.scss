@@ -1,0 +1,237 @@
+$Background_image : url("https://images.axios.com/CvL6D60PoJj4HxqWrWDIgEk9dCo=/0x0:1920x1080/1920x1080/2020/04/28/1588095225695.gif");
+$Header_color :  #00a4a7;
+$Paragaraph_color :  #40e0d0;
+ 
+//Imported a new font
+@font-face{
+  font-family: 'Futuristic-font';
+  src: url(./Fonts/future.ttf) format('truetype');
+}
+
+
+//Overriding default values, so that the background is full-screen.
+html, body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+} 
+//----------------------------------------------------------------------------------------//
+// Home Page//
+
+.background {
+ height: 100vh;
+ background-image: $Background_image;
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow: auto;
+}
+
+.headerHP{
+  color: $Header_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 40px;
+}
+
+.paragraphHP{
+  margin-top: 5vh;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.paragraphHP{
+  margin-top: 2vh;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.questionText{
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.questionInput{
+  width: 20%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: content-box;
+  border: 100px #40e0d0;
+  border-radius: 100px;
+  margin-left: 3vh;
+  margin-top: 2vh;
+}
+
+.form_div{
+  text-align: center;
+  margin-top: 18vh;
+}
+
+.button1HP{
+  margin-top: 2vh;
+  border-radius: 12px;
+  padding: 14px 40px;
+  background-color: black;
+  border-color: #40e0d0;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+}
+
+.answer_div{
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.answer{
+  margin-top: 17vh;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.button2HP{
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: black;
+  border-color: #40e0d0;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+}
+
+.toast{
+  color: #000 ;
+  border-radius: 8px ;
+  background: #FFFFFF ;
+  border: 1px solid #34A853 ;
+  box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1);
+}
+
+//----------------------------------------------------------------------------------------//
+//Log-In//
+
+.header2{
+  color: $Header_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 30px;
+}
+
+.header1{
+  color: $Header_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 40px;
+}
+
+
+.logInForm{
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.logInText{
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.logIn{
+  margin-left: 10px;
+  width: 20%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: content-box;
+  border: 100px #40e0d0;
+  border-radius: 100px;
+  margin-left: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.button3{
+  margin-top: 3vh;
+  border-radius: 12px;
+  padding: 14px 40px;
+  background-color: black;
+  border-color: #40e0d0;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+}
+
+
+.paragraph3{
+  margin-top: 30vh;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+//---------------------------------------------------------------------------------------//\
+// Admin //
+.header3{
+  color: $Header_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 40px;
+}
+
+.paragraph4{
+  margin-top: 5vh;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+}
+
+.actionBox{
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.adminInput{
+  margin-left: 10px;
+  width: 20%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: content-box;
+  border: 100px #40e0d0;
+  border-radius: 100px;
+  margin-left: 3vh;
+  margin-top: 3vh;
+}
+ 
+
+.adminText{
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.adminButton{
+  border-radius: 12px;
+  padding: 14px 40px;
+  background-color: black;
+  border-color: #40e0d0;
+  color: $Paragaraph_color;
+  font-family: 'Futuristic-font';
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
